@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AE9F3670-D841-4FCE-A798-E11DD4127BB9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BadMovieNight</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>45E47F17-8DE3-4A2E-93AA-01EF7A80A2C3</key>
+		<string>https://github.com/cmoody/TipCalculator.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Cordova/platforms/ios/BadMovieNight.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>45E47F17-8DE3-4A2E-93AA-01EF7A80A2C3</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/cmoody/TipCalculator.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>45E47F17-8DE3-4A2E-93AA-01EF7A80A2C3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>45E47F17-8DE3-4A2E-93AA-01EF7A80A2C3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BadMovieNight</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,6 @@
+curl -X POST \
+  -H "X-Parse-Application-Id: Y9KwjkJ4OdWtpr3KvCNKSWZBQ8t87U4Snwm4UBZo" \
+  -H "X-Parse-REST-API-Key: CKKrMbsdeI9P2lrVPxFpjkLd8UQe6aLCPZVhic3V" \
+  -H "Content-Type: application/json" \
+  -d '{}' \
+  https://api.parse.com/1/functions/updateFilms

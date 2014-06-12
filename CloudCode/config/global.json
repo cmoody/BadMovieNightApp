@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "BadMovieNight": {
+            "applicationId": "Y9KwjkJ4OdWtpr3KvCNKSWZBQ8t87U4Snwm4UBZo", 
+            "masterKey": "7MbI0k4PzQxmALyQHlaRoYKW6Puw7xoiiFX6XT7g"
+        }, 
+        "_default": {
+            "link": "BadMovieNight"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.2.18"
+    }
+}
