@@ -7,6 +7,14 @@ var Actors = [
 	'18269', // Brendan Fraser
 ];
 
+var Genres = [
+	'action',
+	'adventure',
+	'comedy',
+	'drama',
+	'horror'
+];
+
 Parse.Cloud.define("updateFilms", function(request, response) {
 
   	Parse.Cloud.httpRequest({

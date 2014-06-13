@@ -1,1 +1,2 @@
-merge with existing BMN
+- Use keyframes for animation triggered by swipe
+- First use show swipe animation over of thumb over film strip

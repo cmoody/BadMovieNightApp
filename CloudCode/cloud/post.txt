@@ -4,3 +4,5 @@ curl -X POST \
   -H "Content-Type: application/json" \
   -d '{}' \
   https://api.parse.com/1/functions/updateFilms
+
+curl -X GET -H "Content-Type: application/json" -d '{}' http://api.themoviedb.org/3/search/person?api_key=9c03a2919e8baf499f682bc357bac41a&query=cage

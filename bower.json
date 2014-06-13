@@ -2,19 +2,11 @@
   "name": "BadMovieNight",
   "version": "0.0.1",
   "authors": [
-    "Chase Moody <chase.moody@mutalmobile.com>"
+    "Chase Moody <cmoody06@gmail.com>"
   ],
   "dependencies": {
     "jquery": "2.1.x",
-    "backbone": "1.1.2",
-    "underscore": "1.6.0",
     "hammerjs": "1.0.9",
-    "jquery-hammerjs": "1.1.x",
-    "requirejs": "~2.1.10",
-    "requirejs-text": "~2.0.10",
-    "almond": "0.2.9",
-    "velocity": "0.0.9",
-    "backbone.localStorage": "~1.1.7",
-    "shake.js": "1.1.0"
+    "jquery-hammerjs": "1.1.x"
   }
 }
