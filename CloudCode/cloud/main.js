@@ -16,23 +16,33 @@ var Genres = [
 ];
 
 Parse.Cloud.define("updateFilms", function(request, response) {
+	var responseData = [];
+	var actorsLength = Actors.length;
+	var i;
 
-  	Parse.Cloud.httpRequest({
-	  url: 'http://api.themoviedb.org/3/person/' + Actors[0] + '/movie_credits',
-	  headers: {
-	    'Content-Type': 'application/json;charset=utf-8',
-	  },
-	  params: {
-	    api_key : '9c03a2919e8baf499f682bc357bac41a'
-	  },
-	  success: function(httpResponse) {
-	    response.success(httpResponse.data);
-	  },
-	  error: function(httpResponse) {
-	  	response.error(httpResponse);
-	    //console.error('Request failed with response code ' + httpResponse.status);
-	  }
-	});
+	for(i = 0;i < actorsLength;i++) {
+	  	Parse.Cloud.httpRequest({
+		  url: 'http://api.themoviedb.org/3/person/' + Actors[i] + '/movie_credits',
+		  headers: {
+		    'Content-Type': 'application/json;charset=utf-8',
+		  },
+		  params: {
+		    api_key : '9c03a2919e8baf499f682bc357bac41a'
+		  },
+		  success: function(httpResponse) {
+		  	responseData.push(httpResponse.data);
+
+		  	if(i === actorsLength - 1) {
+		  		response.success(responseData);
+		  	}
+		    //response.success(httpResponse.data);
+		  },
+		  error: function(httpResponse) {
+		  	response.error(httpResponse);
+		    //console.error('Request failed with response code ' + httpResponse.status);
+		  }
+		});
+	}
 
 });
 
